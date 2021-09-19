@@ -2,7 +2,7 @@
 
 ## Install CERN ROOT
 
-Install all requires prerequisites and comple latest CERN ROOT libraries on your Ubuntu-based linux. Script will also set up your environment variables. Open your terminal and paste following code.
+Install all requires prerequisites and comple latest CERN ROOT libraries on your Ubuntu-based linux. Script will also set up your environment variables. Open your terminal and execute following lines:
 
 ```
 mkdir -p ~/Downloads && cd ~/Downloads
