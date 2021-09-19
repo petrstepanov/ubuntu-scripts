@@ -6,7 +6,7 @@ Install all requires prerequisites and comple latest CERN ROOT libraries on your
 
 ```
 mkdir -p ~/Downloads && cd ~/Downloads
-wget -O https://raw.githubusercontent.com/petrstepanov/ubuntu-scripts/master/install-root-latest.sh
+wget -O install-root-latest.sh https://raw.githubusercontent.com/petrstepanov/ubuntu-scripts/master/install-root-latest.sh
 chmod +x ./install-root-latest.sh
 ./install-root-latest.sh
 ```
