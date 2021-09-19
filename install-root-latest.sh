@@ -16,7 +16,7 @@ then
 	echo "$v"
 
 	# Update the system
-	sudo apt -y update	
+	sudo apt-get update && sudo apt-get -y upgrade	
 
 	# Install ROOT dependencies
 	sudo apt -y install build-essential
