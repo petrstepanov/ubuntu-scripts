@@ -50,6 +50,11 @@ then
 	echo source `find $(pwd) -name "thisroot.sh" #source-thisroot` >> ~/.bashrc
 	source ~/.bashrc	
 	
+	# Install ROOT icon
+	wget https://raw.githubusercontent.com/petrstepanov/gnome-third-party-icons/65f9731a4260b499b7a86e9968dbc05a3a5066a6/icons/gnome-cernroot.svg
+	cp ./gnome-cernroot.svg ~/.local/share/icons/hicolor/scalable/apps/
+	gtk-update-icon-cache
+	
 	# Create desktop launcher for .root files
 	launcher="$HOME/.local/share/applications/rootbrowse.desktop"
 	echo "[Desktop Entry]" > $launcher
